@@ -8,5 +8,4 @@ My portfolio link: https://phongretzka-portfolio.netlify.app
 - HTML
 - CSS
 - Javascript
-- Some image
 - Deploy on Netlify

@@ -7,6 +7,10 @@
   --light-one: #000000;
   --light-two: #444141;
   --light-three: rgba(0, 0, 0, 0.15);
+
+  --green-one: #00ff00;
+  --green-two: #00ff7bbb;
+  --green-three: #44c044;
 }
 /* Genral Styles */
 
@@ -50,6 +54,7 @@ textarea {
 
 a {
   text-decoration: none;
+  color:rgb(55, 255, 0);
 }
 
 ul {
@@ -86,6 +91,13 @@ img {
 .text {
   font-size: 1.25rem;
   color: var(--dark-one);
+  line-height: 1.6;
+}
+
+.text-green 
+{
+  font-size: 1.45rem;
+  color: var(--green-one);
   line-height: 1.6;
 }
 
@@ -238,6 +250,8 @@ img {
   font-size: 1rem;
 }
 
+
+
 /* Header CSS - NAVIGATION BAR */
 
 header {
@@ -370,7 +384,7 @@ nav.open .links {
 .header-title {
     font-size: 3.8rem;
     line-height: 0.8;
-    color: var(--dark-one);
+    color: var(--green-one);
     font-family: 'Agency FB', sans-serif;
 }
 
