@@ -6,7 +6,7 @@ particlesJS("bg", {
       "value": 288,
       "density": {
         "enable": true,
-        "value_area": 1000
+        "value_area": 730
       }
     },
     "color": {
@@ -19,12 +19,12 @@ particlesJS("bg", {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 7
       },
       "image": {
         "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "width": 50,
+        "height": 50
       }
     },
     "opacity": {
