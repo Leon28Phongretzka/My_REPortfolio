@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;600&display=swap');
+
+:root {
+  --dark-one: #a4a4a4;
+  --dark-two: #bcbcbc;
+  --main-color: #929292;
+  --light-one: #000000;
+  --light-two: #444141;
+  --light-three: rgba(0, 0, 0, 0.15);
+}
+#bg
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
