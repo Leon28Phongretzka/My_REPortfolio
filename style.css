@@ -379,7 +379,13 @@ nav.open .links {
 }
 
 .header-content .image .img-element {
+  /* add border */
+  border: 2px solid var(--main-color);
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
   max-width: 500px;
+
 }
 
 .letters {
