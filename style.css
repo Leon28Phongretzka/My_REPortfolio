@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;600&display=swap');
+@import url(//db.onlinewebfonts.com/c/b5477b6215858c9a3770dbbc7906820f?family=Agency+Gothic+CT+Medium);
 :root {
   --dark-one: #a4a4a4;
   --dark-two: #bcbcbc;
@@ -237,7 +238,7 @@ img {
   font-size: 1rem;
 }
 
-/* Header CSS */
+/* Header CSS - NAVIGATION BAR */
 
 header {
   width: 100%;
@@ -356,18 +357,21 @@ nav.open .links {
   transform: translateX(0);
 }
 
+/* HOME */
+
 .header-content .container.grid-2 {
-  grid-template-columns: 2.5fr 3.5fr;
-  min-height: calc(100vh - 6rem);
-  padding-bottom: 5rem;
-  text-align: left;
-  color:rgb(168, 167, 167);
+    grid-template-columns: 2.5fr 3.5fr;
+    min-height: calc(100vh - 6rem);
+    padding-bottom: 5rem;
+    text-align: left;
+    color:rgb(168, 167, 167);
 }
 
 .header-title {
-  font-size: 3.8rem;
-  line-height: 0.8;
-  color: var(--dark-one);
+    font-size: 3.8rem;
+    line-height: 0.8;
+    color: var(--dark-one);
+    font-family: 'Agency FB', sans-serif;
 }
 
 .header-content .text {
@@ -393,3 +397,4 @@ nav.open .links {
   align-items: center;
   margin: 1.5rem 0;
 }
+
