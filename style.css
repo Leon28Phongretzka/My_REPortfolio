@@ -640,7 +640,7 @@ nav.open .links {
 }
 .skills__react
 {
-  width: 15%;
+  width: 35%;
 }
 
 .skills__c
@@ -653,7 +653,7 @@ nav.open .links {
 }
 .skills__py
 {
-  width: 13%;
+  width: 33%;
 }
 .skills__java
 {
@@ -736,5 +736,10 @@ nav.open .links {
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
+}
+
+.column-2 img {
+  max-width: 550px;
+  height: auto;
 }
 
