@@ -507,4 +507,234 @@ nav.open .links {
   pointer-events: none;
 }
 
+/* About me */
+.header-about {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: var(--green-one);
+    font-family: 'Agency FB', sans-serif;
+}
+
+.section__title
+{
+  font-size: 2.25rem;
+  line-height: 1.2;
+  color: var(--green-one);
+  font-family: 'Agency FB', sans-serif;
+}
+
+.section__subtitle
+{
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: var(--green-one);
+}
+
+.about {
+  overflow: hidden;
+}
+
+.about img {
+  max-width: 600px;
+}
+
+.about .text {
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
+.justify-about {
+  justify-content: center;
+}
+
+.skills__container
+{
+  row-gap: 0;
+}
+.skills__header
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+.skills__icon
+{
+  font-size: 2rem;
+  margin-right: var(--mb-0-75);
+  color: hsl(285, 100%, 50%);
+}
+.skills__arrow
+{
+  margin-left: auto;
+  font-size: 2rem;
+  color: var(--first-color);
+}
+.skills__titles
+{
+  font-size: var(--h1-font-size);
+}
+.skills__subtitle
+{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+.skills__arrow
+{
+  margin-left: auto;
+  transition: .4s;
+}
+.skill__list
+{
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+.skills__titles
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+  color: var(--green-two);
+}
+.skills__number
+{
+  font-size: 1rem;
+  color: var(--green-three);
+}
+.skills__name
+{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--green-one);
+}
+.skills__bar
+{
+  /* height: 4px; */
+  border-radius: 1rem;
+  background-color: hsl(240, 4%, 41%);
+}
+.skills__percentage
+{
+  height: 5px;
+  border-radius: .25rem;
+  display: block;
+  background-color: hsl(281, 84%, 42%);
+}
+.skill__bar
+{
+  background-color: hsl(281, 84%, 42%);
+}
+
+
+.skills__html
+{
+  width: 42%;
+}
+.skills__css
+{
+  width: 35%;
+}
+.skills__js
+{
+  width: 33%;
+}
+.skills__react
+{
+  width: 15%;
+}
+
+.skills__c
+{
+  width: 85%;
+}
+.skills__cpp
+{
+  width: 55%;
+}
+.skills__py
+{
+  width: 13%;
+}
+.skills__java
+{
+  width: 15%;
+}
+
+.skills__ET
+{
+  width: 45%;
+}
+.skills__EC
+{
+  width: 23%;
+}
+.skills__IT
+{
+  width: 35%;
+}
+.skills__DA
+{
+  width: 37%;
+}
+
+
+.about .column-1 {
+  position: relative;
+}
+
+.about .column-1:before {
+  content: "About";
+  position: absolute;
+  font-size: 8rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.1);
+  opacity: 0.04;
+  top: 20px;
+  left: 0;
+  line-height: 0;
+}
+
+.about .text
+{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #484444;
+}
+
+.about .points {
+  width: 300px;
+  top: 65%;
+  left: 80%;
+  opacity: 0.1;
+}
+
+.exEUdv .attacking, .exEUdv .saves {
+  top: 0px;
+  right: 50%;
+  transform: translate(22px, -100%);
+  padding-bottom: 4px;
+}
+.eRXHvd {
+  display: flex;
+}
+
+
+.jrdKZm {
+  color: rgba(34, 34, 38, 0.45);
+  text-align: left;
+  font: 500 12px / 20px Roboto, sans-serif;
+  text-transform: uppercase;
+}
+* {
+  box-sizing: border-box;
+}
+
+.poly-overview
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
 
