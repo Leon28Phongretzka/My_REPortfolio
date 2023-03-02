@@ -5,7 +5,8 @@ This is a simple portfolio, to show my skills and my repository I was working on
 My portfolio link: https://phongretzka-portfolio.netlify.app
 
 # 🚀 Languages/Frameworks and Tools:
+
 - HTML
 - CSS
 - Javascript
-- Deploy on Netlify
+- Deploy on Netlify - This is a deploy tool with linking the GitHub repository. So it's make me feel easier to deploy my project.
